@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+div.logoInicial{
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+}
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.colorLtra1{
+    color: #39B24A;
+}
+.colorLtra2{
+    color: #FFFFFF
+}
+.colorLtra3{
+    color: #FC200C;
+}
+.lista1 ul li{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+}
+main{
+
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 490px;
+    height: 350px;
+    margin-top: 39px;
+}
+.content1{
+    position: relative;
+}
+.caja1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+.content1 h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FC200C;
+}
+.content2{
+    position: relative;
+}
+.title2 h3{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FC200C;
+    text-align: center;
+    padding-top: 15px;
+}
+.content3{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    top: 125px;
+    left: 25px;
+}
+.content3 h3{
+    position: absolute;
+    top: -38px;
+    left: 40px;
+}
+.imgTree{
+    position: absolute;
+    height: 129px;
+    width: 92px;
+    left: 320px;
+    bottom: 80px;
+}
+.endFooter{
+    position: relative;
+    margin-top: 39px;
+    background-color: #222222;
+    height: 150px;
+}
+.logoEnd{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    left: 1200px;
+    top: 25px;
+}
+.logoEnd h3{
+    padding-left: 15px;
+}
+.endFooter nav{
+    padding-top: 15px;
+    color: #F3F3F3;
+    font-size: 16px;
+    line-height: 28px;
+}
